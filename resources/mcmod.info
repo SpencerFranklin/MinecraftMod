@@ -1,0 +1,12 @@
+[
+{
+  "modid": "test_mod",
+  "name": "My First Mod",
+  "description": "Super badass mod",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "https://github.com/SpencerFranklin/MinecraftMod.git",
+  "authors": [ "SPENCER" ],
+  "credits": ""
+}
+]

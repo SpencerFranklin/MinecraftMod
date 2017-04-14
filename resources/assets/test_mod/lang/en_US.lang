@@ -1,0 +1,11 @@
+# Blocks
+
+tile.test_mod:fBlock.name=First Block
+
+# Items
+
+item.test_mod:fItem.name=fitem
+
+# Creative Tab
+
+itemGroup.test_mod:creative_tab=Mod Tab
