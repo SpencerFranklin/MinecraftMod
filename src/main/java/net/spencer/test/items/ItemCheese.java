@@ -6,8 +6,8 @@ import net.spencer.test.Reference;
 public class ItemCheese extends Item {
 
 	public ItemCheese() {
-		setUnlocalizedName(Reference.TutorialItems.CHEESE.getUnlocalizedName());
-		setRegistryName(Reference.TutorialItems.CHEESE.getRegistryName());
+		setUnlocalizedName(Reference.ModItems.CHEESE.getUnlocalizedName());
+		setRegistryName(Reference.ModItems.CHEESE.getRegistryName());
 	}
 	
 }

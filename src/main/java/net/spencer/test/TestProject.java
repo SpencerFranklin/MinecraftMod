@@ -9,6 +9,7 @@ import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.spencer.test.init.ModBlocks;
 import net.spencer.test.init.ModItems;
 import net.spencer.test.proxy.CommonProxy;
 import net.spencer.test.proxy.ServerProxy;
@@ -33,6 +34,8 @@ public class TestProject {
 		ModItems.init();
 		ModItems.register();
 		
+		ModBlocks.init();
+		ModBlocks.register();
 	}
 	
 	@EventHandler
