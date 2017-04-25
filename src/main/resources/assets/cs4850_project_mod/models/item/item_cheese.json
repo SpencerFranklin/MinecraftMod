@@ -1,6 +1,0 @@
-{
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "cs4850_project_mod:items/cheese"
-    }
-}
