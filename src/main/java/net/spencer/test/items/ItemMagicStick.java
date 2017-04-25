@@ -60,8 +60,8 @@ public class ItemMagicStick extends Item {
     }
 	
 	public ItemMagicStick() {
-		setUnlocalizedName(Reference.TutorialItems.MAGICSTICK.getUnlocalizedName());
-		setRegistryName(Reference.TutorialItems.MAGICSTICK.getRegistryName());
+		setUnlocalizedName(Reference.ModItems.MAGICSTICK.getUnlocalizedName());
+		setRegistryName(Reference.ModItems.MAGICSTICK.getRegistryName());
 		this.setMaxStackSize(1);
 	}
 	

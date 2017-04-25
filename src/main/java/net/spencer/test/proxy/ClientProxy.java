@@ -1,8 +1,5 @@
 package net.spencer.test.proxy;
 
-import net.minecraftforge.fml.common.event.FMLInitializationEvent;
-import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
-import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.spencer.test.init.ModBlocks;
 import net.spencer.test.init.ModItems;
 
