@@ -11,10 +11,13 @@ public class Reference {
 	public static final String SERVER_PROXY = "net.spencer.test.proxy.ServerProxy";
 
 	public static enum TutorialItems {
-		CHEESE("cheese", "item_cheese");
 		
+		CHEESE("cheese", "item_cheese"),
+		MAGICSTICK("magic_stick", "item_magic_stick");
+
 		private String unlocalizedName;
 		private String registryName;
+		
 		TutorialItems(String unlocalizedName, String registryName) {
 			this.unlocalizedName = unlocalizedName;
 			this.registryName = registryName;
