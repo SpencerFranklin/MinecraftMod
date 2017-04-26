@@ -1,9 +1,9 @@
-[17:21:49] [Client thread/INFO]: Setting user: Player483
-[17:21:56] [Client thread/INFO]: LWJGL Version: 2.9.4
-[17:22:00] [Client thread/INFO]: [STDOUT]: ---- Minecraft Crash Report ----
-// This doesn't make any sense!
+[17:26:01] [Client thread/INFO]: Setting user: Player718
+[17:26:05] [Client thread/INFO]: LWJGL Version: 2.9.4
+[17:26:07] [Client thread/INFO]: [STDOUT]: ---- Minecraft Crash Report ----
+// Daisy, daisy...
 
-Time: 4/26/17 5:22 PM
+Time: 4/26/17 5:26 PM
 Description: Loading screen debug info
 
 This is just a prompt for computer specs to be printed. THIS IS NOT A ERROR
@@ -18,19 +18,84 @@ Details:
 	Operating System: Windows 10 (amd64) version 10.0
 	Java Version: 1.8.0_121, Oracle Corporation
 	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
-	Memory: 808473224 bytes (771 MB) / 1037959168 bytes (989 MB) up to 1037959168 bytes (989 MB)
+	Memory: 811351800 bytes (773 MB) / 1037959168 bytes (989 MB) up to 1037959168 bytes (989 MB)
 	JVM Flags: 3 total; -Xincgc -Xmx1024M -Xms1024M
 	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
 	FML: 
 	Loaded coremods (and transformers): 
 	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.5.0 NVIDIA 378.78' Renderer: 'GeForce GTX 960/PCIe/SSE2'
-[17:22:04] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Example Mod, FMLFileResourcePack:Game Engines Final Project
-[17:22:05] [Client thread/INFO]: [STDOUT]: Building Game Engines: Final Project: PRE-INIT
-[17:22:24] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[17:22:24] [Thread-8/INFO]: Initializing LWJGL OpenAL
-[17:22:24] [Thread-8/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[17:22:24] [Thread-8/INFO]: OpenAL initialized.
-[17:22:24] [Sound Library Loader/INFO]: Sound engine started
-[17:22:29] [Client thread/INFO]: Created: 16x16 textures-atlas
-[17:22:30] [Client thread/INFO]: [STDOUT]: DIRT BLOCK >> tile.dirt
-[17:22:30] [Client thread/INFO]: [STDOUT]: Building Game Engines: Final Project: INIT
+[17:26:09] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Example Mod, FMLFileResourcePack:Game Engines Final Project
+[17:26:09] [Client thread/INFO]: [STDOUT]: Building Game Engines: Final Project: PRE-INIT
+[17:26:25] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[17:26:26] [Thread-8/INFO]: Initializing LWJGL OpenAL
+[17:26:26] [Thread-8/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[17:26:26] [Thread-8/INFO]: OpenAL initialized.
+[17:26:26] [Sound Library Loader/INFO]: Sound engine started
+[17:26:30] [Client thread/INFO]: Created: 16x16 textures-atlas
+[17:26:31] [Client thread/INFO]: [STDOUT]: DIRT BLOCK >> tile.dirt
+[17:26:31] [Client thread/INFO]: [STDOUT]: Building Game Engines: Final Project: INIT
+[17:26:31] [Client thread/INFO]: [STDOUT]: cs4850_project_mod:cheese
+[17:26:31] [Client thread/INFO]: [STDOUT]: cs4850_project_mod:magic_stick
+[17:26:31] [Client thread/INFO]: [STDOUT]: cs4850_project_mod:bomb
+[17:26:31] [Client thread/INFO]: [STDOUT]: cs4850_project_mod:cheese_block
+[17:26:31] [Client thread/INFO]: [STDOUT]: Building Game Engines: Final Project: POST-INIT
+[17:26:31] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Example Mod, FMLFileResourcePack:Game Engines Final Project
+[17:26:34] [Client thread/INFO]: SoundSystem shutting down...
+[17:26:34] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[17:26:34] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[17:26:35] [Thread-10/INFO]: Initializing LWJGL OpenAL
+[17:26:35] [Thread-10/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[17:26:35] [Thread-10/INFO]: OpenAL initialized.
+[17:26:35] [Sound Library Loader/INFO]: Sound engine started
+[17:26:39] [Client thread/WARN]: Texture cs4850_project_mod:textures/items/bomb.png with size 21x21 will have visual artifacts at mip level 4, it can only support level 0. Please report to the mod author that the texture should be some multiple of 16x16.
+[17:26:39] [Client thread/INFO]: Created: 512x512 textures-atlas
+[17:26:41] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[17:26:51] [Server thread/INFO]: Starting integrated minecraft server version 1.11.2
+[17:26:51] [Server thread/INFO]: Generating keypair
+[17:26:52] [Server thread/INFO]: Preparing start region for level 0
+[17:26:53] [Server thread/INFO]: Preparing spawn area: 28%
+[17:26:53] [Server thread/INFO]: Changing view distance to 12, from 10
+[17:26:54] [Server thread/INFO]: Player718[local:E:0fdcf18b] logged in with entity id 255 at (199.7022458196945, 71.0, -106.37217460516646)
+[17:26:54] [Server thread/INFO]: Player718 joined the game
+[17:26:55] [Server thread/INFO]: Saving and pausing game...
+[17:26:55] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[17:26:55] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@4333baa9[id=8ce64f24-c135-3001-9ff7-8b03d3719e4f,name=Player718,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:79) ~[YggdrasilAuthenticationService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:180) [YggdrasilMinecraftSessionService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:60) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:57) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3524) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2317) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2280) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2195) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3934) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:3938) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:4821) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:4827) [guava-17.0.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:170) [YggdrasilMinecraftSessionService.class:?]
+	at net.minecraft.client.Minecraft.getProfileProperties(Minecraft.java:3056) [Minecraft.class:?]
+	at net.minecraft.client.resources.SkinManager$3.run(SkinManager.java:138) [SkinManager$3.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_121]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_121]
+[17:26:56] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[17:26:56] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[17:27:02] [Server thread/INFO]: Saving and pausing game...
+[17:27:02] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[17:27:02] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[17:27:02] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[17:27:02] [Server thread/INFO]: Stopping server
+[17:27:02] [Server thread/INFO]: Saving players
+[17:27:02] [Server thread/INFO]: Player718 lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[17:27:02] [Server thread/INFO]: Player718 left the game
+[17:27:03] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[17:27:03] [Server thread/INFO]: Saving worlds
+[17:27:03] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[17:27:03] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[17:27:03] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[17:27:06] [Client thread/INFO]: Stopping!
+[17:27:06] [Client thread/INFO]: SoundSystem shutting down...
+[17:27:06] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com

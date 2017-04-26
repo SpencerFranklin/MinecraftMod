@@ -17,7 +17,7 @@ public class ClientProxy implements CommonProxy {
 	
 	@Override
 	public void init(){
-		EntityRegistry.registerModEntity(new ResourceLocation("cs4850_project_mod:items/bomb"), EntityBomb.class, "Bomb", 0, this, 64, 10, true);		
+		//EntityRegistry.registerModEntity(new ResourceLocation("cs4850_project_mod:items/bomb"), EntityBomb.class, "Bomb", 0, this, 64, 10, true);		
 		ModItems.registerRenders();
 		ModBlocks.registerRenders();
 	}
