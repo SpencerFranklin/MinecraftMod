@@ -16,7 +16,7 @@ public class ModBlocks {
 	public static Block cheese;
 	
 	public static void init () {
-		cheese = new BlockCheese();
+		cheese = new BlockCheese(ModItems.cheese, 1, 6);
 	}
 	
 	public static void register () {

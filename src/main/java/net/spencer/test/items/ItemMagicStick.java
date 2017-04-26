@@ -32,9 +32,11 @@ public class ItemMagicStick extends Item {
 			}
 			
 			counter++;
+		}
+		
 			if (counter > 1){
 				counter = 0;
-				player.sendMessage(new TextComponentString("Replacing Blocks"));
+				player.sendMessage(new TextComponentString("Mining Blocks"));
 				int sX = 1, sY = 1, sZ = 1;
 
 				if (((int)(posA[1].getX()) - (int)(posA[0].getX())) > 0)
@@ -50,12 +52,13 @@ public class ItemMagicStick extends Item {
 								worldIn.destroyBlock(new BlockPos(i * sX + posA[1].getX(), j * sY + posA[1].getY(), k * sZ + posA[1].getZ()), true);
 								//worldIn.setBlockState(new BlockPos(i * sX + posA[1].getX(), j * sY + posA[1].getY(), k * sZ + posA[1].getZ()), Blocks.AIR.getDefaultState());
 								//worldIn.setBlockToAir(new BlockPos(i * sX + posA[1].getX(), j * sY + posA[1].getY(), k * sZ + posA[1].getZ()));
-								player.sendMessage(new TextComponentString("rm block " + (i * sX + posA[1].getX()) + " " + (j * sY + posA[1].getY()) + " " + (k * sZ + posA[1].getZ())));
+								//player.sendMessage(new TextComponentString("rm block " + (i * sX + posA[1].getX()) + " " + (j * sY + posA[1].getY()) + " " + (k * sZ + posA[1].getZ())));
 						}
 					}
 				}
 			}
-		}
+		
+		super.onItemUse(player, worldIn, pos, hand, facing, hitX, hitY, hitZ);
         return EnumActionResult.PASS;
     }
 	

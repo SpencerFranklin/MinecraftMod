@@ -15,7 +15,7 @@ public class ModItems {
 	public static Item magic_stick;
 	
 	public static void init () {
-		cheese = new ItemCheese();
+		cheese = new ItemCheese(5, 1, false).setAlwaysEdible();
 		magic_stick = new ItemMagicStick();
 	}
 	
