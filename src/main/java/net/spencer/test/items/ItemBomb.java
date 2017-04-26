@@ -21,6 +21,7 @@ public class ItemBomb extends Item {
 		setMaxStackSize(18);
 		setUnlocalizedName(Reference.ModItems.BOMB.getUnlocalizedName());
 		setRegistryName(Reference.ModItems.BOMB.getRegistryName());
+		
 	}
 	
 	public ItemStack onItemRightClick(ItemStack stack, World world, EntityPlayer player) {

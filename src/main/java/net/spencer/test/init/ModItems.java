@@ -3,6 +3,8 @@ package net.spencer.test.init;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
+import net.minecraft.util.ResourceLocation;
+import net.minecraftforge.fml.client.registry.RenderingRegistry;
 import net.minecraftforge.fml.common.registry.EntityRegistry;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
@@ -22,7 +24,6 @@ public class ModItems {
 		cheese = new ItemCheese(5, 1, false).setAlwaysEdible();
 		magic_stick = new ItemMagicStick();
 		bomb = new ItemBomb();
-		
 	}
 	
 	public static void register () {
@@ -36,6 +37,7 @@ public class ModItems {
 		registerRender (cheese);
 		registerRender (magic_stick);
 		registerRender (bomb);
+		//RenderingRegistry.registerEntityRenderingHandler(entityClass, RenderSnowball());
 
 	}
 	
