@@ -1,5 +1,7 @@
 package net.spencer.test.proxy;
 
+import net.minecraftforge.fml.common.registry.EntityRegistry;
+import net.spencer.test.entity.EntityBomb;
 import net.spencer.test.init.ModBlocks;
 import net.spencer.test.init.ModItems;
 

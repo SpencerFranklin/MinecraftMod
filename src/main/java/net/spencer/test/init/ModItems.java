@@ -3,9 +3,11 @@ package net.spencer.test.init;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
+import net.minecraftforge.fml.common.registry.EntityRegistry;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 import net.spencer.test.Reference;
+import net.spencer.test.entity.EntityBomb;
 import net.spencer.test.items.ItemBomb;
 import net.spencer.test.items.ItemCheese;
 import net.spencer.test.items.ItemMagicStick;
@@ -20,6 +22,7 @@ public class ModItems {
 		cheese = new ItemCheese(5, 1, false).setAlwaysEdible();
 		magic_stick = new ItemMagicStick();
 		bomb = new ItemBomb();
+		
 	}
 	
 	public static void register () {
