@@ -16,14 +16,10 @@ public class ItemCheese extends ItemFood {
 		setRegistryName(Reference.ModItems.CHEESE.getRegistryName());
 		healAmount = 5;
 		saturation = 1f;
+		setMaxStackSize(16);
 	}
 	
-	@Override
-	public Item setMaxStackSize(int maxStackSize)
-    {
-        this.maxStackSize = 64;
-        return this;
-    }
+
 	
 	@Override
 	protected void onFoodEaten(ItemStack stack, World worldIn, EntityPlayer player)

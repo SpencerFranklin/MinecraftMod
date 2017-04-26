@@ -13,7 +13,8 @@ public class Reference {
 	public static enum ModItems {
 		
 		CHEESE("cheese", "cheese"),
-		MAGICSTICK("magic_stick", "magic_stick");
+		MAGICSTICK("magic_stick", "magic_stick"),
+		BOMB("bomb", "bomb");
 
 		private String unlocalizedName;
 		private String registryName;
