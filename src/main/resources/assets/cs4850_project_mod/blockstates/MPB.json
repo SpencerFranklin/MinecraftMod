@@ -1,5 +1,5 @@
 {
     "variants": {
-        "normal": { "model" : "cs4850_project_mod:MPB" }
+        "normal": { "model" : "cs4850_project_mod:mpb" }
     }
 }
