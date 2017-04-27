@@ -35,7 +35,8 @@ public class Reference {
 	
 public static enum ModBlocks {
 		
-		CHEESE("cheese", "cheese_block");
+		CHEESE("cheese", "cheese_block"),
+		MPB("mpb", "mpb");
 
 		private String unlocalizedName;
 		private String registryName;
