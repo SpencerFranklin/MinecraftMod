@@ -39,7 +39,7 @@ public class Reference {
 public static enum ModBlocks {
 		
 		CHEESE("cheese", "cheese_block"),
-		MPB("MPB", "MPB"),
+		MPB("mpb", "mbp"),
 		SPREAD("spread", "spread");
 
 		private String unlocalizedName;
