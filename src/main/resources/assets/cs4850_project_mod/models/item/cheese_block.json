@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "cs4850_project_mod:blocks/cheese_block"
+    }
+}
