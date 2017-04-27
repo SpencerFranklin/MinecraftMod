@@ -20,8 +20,8 @@ public class MPB extends Block {
 		this.drop = drop;
 		this.least_q = least_q;
 		this.most_q = most_q;
-		setUnlocalizedName(Reference.ModBlocks.CHEESE.getUnlocalizedName());
-		setRegistryName(Reference.ModBlocks.CHEESE.getRegistryName());
+		setUnlocalizedName(Reference.ModBlocks.MPB.getUnlocalizedName());
+		setRegistryName(Reference.ModBlocks.MPB.getRegistryName());
 		setHardness(1.0f);
 	}
 	
