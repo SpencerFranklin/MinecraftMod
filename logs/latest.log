@@ -1,10 +1,10 @@
-[12:44:40] [Client thread/INFO]: Setting user: Player239
-[12:44:45] [Client thread/WARN]: Skipping bad option: lastServer:
-[12:44:45] [Client thread/INFO]: LWJGL Version: 2.9.4
-[12:44:51] [Client thread/INFO]: [STDOUT]: ---- Minecraft Crash Report ----
-// Ooh. Shiny.
+[13:09:13] [Client thread/INFO]: Setting user: Player434
+[13:09:18] [Client thread/WARN]: Skipping bad option: lastServer:
+[13:09:18] [Client thread/INFO]: LWJGL Version: 2.9.4
+[13:09:23] [Client thread/INFO]: [STDOUT]: ---- Minecraft Crash Report ----
+// I bet Cylons wouldn't have this problem.
 
-Time: 4/27/17 12:44 PM
+Time: 4/27/17 1:09 PM
 Description: Loading screen debug info
 
 This is just a prompt for computer specs to be printed. THIS IS NOT A ERROR
@@ -19,55 +19,56 @@ Details:
 	Operating System: Windows 10 (amd64) version 10.0
 	Java Version: 1.8.0_121, Oracle Corporation
 	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
-	Memory: 749237280 bytes (714 MB) / 1037959168 bytes (989 MB) up to 1037959168 bytes (989 MB)
+	Memory: 677694248 bytes (646 MB) / 1037959168 bytes (989 MB) up to 1037959168 bytes (989 MB)
 	JVM Flags: 3 total; -Xincgc -Xmx1024M -Xms1024M
 	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
 	FML: 
 	Loaded coremods (and transformers): 
 	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.5.0 NVIDIA 378.78' Renderer: 'GeForce GTX 960/PCIe/SSE2'
-[12:44:58] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Example Mod, FMLFileResourcePack:Game Engines Final Project
-[12:44:58] [Client thread/INFO]: [STDOUT]: Building Game Engines: Final Project: PRE-INIT
-[12:45:32] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[12:45:32] [Thread-8/INFO]: Initializing LWJGL OpenAL
-[12:45:32] [Thread-8/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[12:45:32] [Thread-8/INFO]: OpenAL initialized.
-[12:45:32] [Sound Library Loader/INFO]: Sound engine started
-[12:45:37] [Client thread/INFO]: Created: 16x16 textures-atlas
-[12:45:38] [Client thread/INFO]: [STDOUT]: DIRT BLOCK >> tile.dirt
-[12:45:38] [Client thread/INFO]: [STDOUT]: Building Game Engines: Final Project: INIT
-[12:45:38] [Client thread/INFO]: [STDOUT]: cs4850_project_mod:cheese
-[12:45:38] [Client thread/INFO]: [STDOUT]: cs4850_project_mod:magic_stick
-[12:45:38] [Client thread/INFO]: [STDOUT]: cs4850_project_mod:bomb
-[12:45:38] [Client thread/INFO]: [STDOUT]: cs4850_project_mod:mcbowl
-[12:45:38] [Client thread/INFO]: [STDOUT]: cs4850_project_mod:cheese_block
-[12:45:38] [Client thread/INFO]: [STDOUT]: Building Game Engines: Final Project: POST-INIT
-[12:45:38] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Example Mod, FMLFileResourcePack:Game Engines Final Project
-[12:45:41] [Client thread/INFO]: SoundSystem shutting down...
-[12:45:42] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
-[12:45:42] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[12:45:42] [Thread-10/INFO]: Initializing LWJGL OpenAL
-[12:45:42] [Thread-10/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[12:45:42] [Thread-10/INFO]: OpenAL initialized.
-[12:45:42] [Sound Library Loader/INFO]: Sound engine started
-[12:45:47] [Client thread/WARN]: Texture cs4850_project_mod:textures/items/bomb.png with size 21x21 will have visual artifacts at mip level 4, it can only support level 0. Please report to the mod author that the texture should be some multiple of 16x16.
-[12:45:47] [Client thread/INFO]: Created: 512x512 textures-atlas
-[12:45:48] [Client thread/WARN]: Skipping bad option: lastServer:
-[12:45:49] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
-[12:45:54] [Server thread/INFO]: Starting integrated minecraft server version 1.11.2
-[12:45:54] [Server thread/INFO]: Generating keypair
-[12:45:54] [Server thread/INFO]: Preparing start region for level 0
-[12:45:55] [Server thread/INFO]: Preparing spawn area: 19%
-[12:45:55] [Server thread/WARN]: Keeping entity minecraft:rabbit that already exists with UUID 5b26a5d8-4828-49e5-a1e6-dd4b783a2aff
-[12:45:56] [Server thread/WARN]: Keeping entity minecraft:rabbit that already exists with UUID 36342fd3-971e-4f5a-a267-b125a49e120a
-[12:45:56] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID 399a869e-11f7-402e-b446-4ab5c205e3fd
-[12:45:56] [Server thread/INFO]: Changing view distance to 12, from 10
-[12:45:58] [Server thread/INFO]: Player239[local:E:b59aeab4] logged in with entity id 278 at (175.24852324545535, 71.0, -164.77212320553858)
-[12:45:58] [Server thread/INFO]: Player239 joined the game
-[12:45:58] [Server thread/INFO]: Saving and pausing game...
-[12:45:59] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[12:45:59] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[12:45:59] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[12:45:59] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@61edf30d[id=75e52373-1963-3666-bda9-8904d639e38b,name=Player239,properties={},legacy=false]
+[13:09:26] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Example Mod, FMLFileResourcePack:Game Engines Final Project
+[13:09:27] [Client thread/INFO]: [STDOUT]: Building Game Engines: Final Project: PRE-INIT
+[13:09:54] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[13:09:54] [Thread-8/INFO]: Initializing LWJGL OpenAL
+[13:09:54] [Thread-8/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[13:09:56] [Thread-8/INFO]: OpenAL initialized.
+[13:09:56] [Sound Library Loader/INFO]: Sound engine started
+[13:10:01] [Client thread/INFO]: Created: 16x16 textures-atlas
+[13:10:03] [Client thread/INFO]: [STDOUT]: DIRT BLOCK >> tile.dirt
+[13:10:03] [Client thread/INFO]: [STDOUT]: Building Game Engines: Final Project: INIT
+[13:10:03] [Client thread/INFO]: [STDOUT]: cs4850_project_mod:cheese
+[13:10:03] [Client thread/INFO]: [STDOUT]: cs4850_project_mod:magic_stick
+[13:10:03] [Client thread/INFO]: [STDOUT]: cs4850_project_mod:bomb
+[13:10:03] [Client thread/INFO]: [STDOUT]: cs4850_project_mod:mcbowl
+[13:10:03] [Client thread/INFO]: [STDOUT]: cs4850_project_mod:cheese_block
+[13:10:03] [Client thread/INFO]: [STDOUT]: Building Game Engines: Final Project: POST-INIT
+[13:10:03] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Example Mod, FMLFileResourcePack:Game Engines Final Project
+[13:10:48] [Client thread/INFO]: SoundSystem shutting down...
+[13:10:49] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[13:10:49] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[13:10:49] [Thread-10/INFO]: Initializing LWJGL OpenAL
+[13:10:49] [Thread-10/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[13:10:49] [Thread-10/INFO]: OpenAL initialized.
+[13:10:49] [Sound Library Loader/INFO]: Sound engine started
+[13:10:55] [Client thread/WARN]: Texture cs4850_project_mod:textures/items/bomb.png with size 21x21 will have visual artifacts at mip level 4, it can only support level 0. Please report to the mod author that the texture should be some multiple of 16x16.
+[13:10:55] [Client thread/INFO]: Created: 512x512 textures-atlas
+[13:10:57] [Client thread/WARN]: Skipping bad option: lastServer:
+[13:11:03] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[13:11:12] [Server thread/INFO]: Starting integrated minecraft server version 1.11.2
+[13:11:12] [Server thread/INFO]: Generating keypair
+[13:11:13] [Server thread/INFO]: Preparing start region for level 0
+[13:11:14] [Server thread/WARN]: Keeping entity minecraft:rabbit that already exists with UUID 5b26a5d8-4828-49e5-a1e6-dd4b783a2aff
+[13:11:14] [Server thread/WARN]: Keeping entity minecraft:rabbit that already exists with UUID 36342fd3-971e-4f5a-a267-b125a49e120a
+[13:11:14] [Server thread/INFO]: Preparing spawn area: 32%
+[13:11:14] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID 399a869e-11f7-402e-b446-4ab5c205e3fd
+[13:11:14] [Server thread/INFO]: Changing view distance to 12, from 10
+[13:11:16] [Server thread/INFO]: Player434[local:E:f6a577ab] logged in with entity id 279 at (170.26004118561298, 72.0, -158.94633954890884)
+[13:11:16] [Server thread/INFO]: Player434 joined the game
+[13:11:28] [Server thread/INFO]: Saving and pausing game...
+[13:11:28] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[13:11:28] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[13:11:28] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[13:11:28] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 12449ms behind, skipping 248 tick(s)
+[13:11:29] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@78506fa[id=fd09468e-08e7-31aa-bab7-195a6ef31320,name=Player434,properties={},legacy=false]
 com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
 	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:79) ~[YggdrasilAuthenticationService.class:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:180) [YggdrasilMinecraftSessionService.class:?]
@@ -89,124 +90,52 @@ com.mojang.authlib.exceptions.AuthenticationException: The client has sent too m
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_121]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_121]
 	at java.lang.Thread.run(Unknown Source) [?:1.8.0_121]
-[12:46:04] [Client thread/INFO]: [CHAT] First Position = X: 180.0 Y: 70.0 Z: -163.0
-[12:46:05] [Client thread/INFO]: [CHAT] Second Position = X: 182.0 Y: 69.0 Z: -164.0
-[12:46:05] [Client thread/INFO]: [CHAT] Mining Blocks
-[12:47:03] [Client thread/INFO]: Setting user: Player68
-[12:47:15] [Client thread/WARN]: Skipping bad option: last[12:47:15[12:47:15] [Client thread/INFO]: LWJGL Version: 2.9.4
-[12:47:20] [Client thread/INFO]: [STDOUT]: ---- Minecraft Crash Report ----
-// Sorry :(
-
-Time: 4/27/17 12:47 PM
-Description: Loading screen debug info
-
-This is just a prompt for computer specs to be printed. THIS IS NOT A ERROR
-
-
-A detailed walkthrough of the error, its code path and all known details is as follows:
----------------------------------------------------------------------------------------
-
--- System Details --
-Details:
-	Minecraft Version: 1.11.2
-	Operating System: Windows 10 (amd64) version 10.0
-	Java Version: 1.8.0_121, Oracle Corporation
-	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
-	Memory: 700501232 bytes (668 MB) / 1037959168 bytes (989 MB) up to 1037959168 bytes (989 MB)
-	JVM Flags: 3 total; -Xincgc -Xmx1024M -Xms1024M
-	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
-	FML: 
-	Loaded coremods (and transformers): 
-	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.5.0 NVIDIA 378.78' Renderer: 'GeForce GTX 960/PCIe/SSE2'
-[12:47:33] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Example Mod, FMLFileResourcePack:Game Engines Final Project
-[12:47:35] [Client thread/INFO]: [STDOUT]: Building Game Engines: Final Project: PRE-INIT
-[12:49:29] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[12:49:30] [Thread-7/INFO]: Initializing LWJGL OpenAL
-[12:49:30] [Thread-7/INFO]: (The [12:49:30] [Thread-7/INFO]: Initializing LWJGL OpenAL
-[12:49:30] [Thread-7[12:49:32] [Thread-7/INFO]: OpenAL initialized.
-[12:49:32] [Sound Library Loader/INFO]: Sound engine started
-[12:49:40] [Client thread/INFO]: Created: 16x16 textures-atlas
-[12:49:44] [Client thread/INFO]: [STDOUT]: DIRT BLOCK >> tile.dirt
-[12:49:44] [Client thread/INFO]: [STDOUT]: Building Game Engines: Final Project: INIT
-[12:49:44] [Client thread/INFO]: [STDOUT]: cs4850_project_mod:cheese
-[12:49:44] [Client thread/INFO]: [STDOUT]: cs4850_project_mod:magic_stick
-[12:49:44] [Client thread/INFO]: [STDOUT]: cs4850_project_mod:bomb
-[12:49:44] [Client thread/INFO]: [STDOUT]: cs4850_project_mod:mcbowl
-[12:49:44] [Client thread/INFO]: [STDOUT]: cs4850_project_mod:cheese_block
-[12:49:44] [Client thread/INFO]: [STDOUT]: Building Game Engines: Final Project: POST-INIT
-[12:49:44] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Example Mod, FMLFileResourcePack:Game Engines Final Project
-[12:50:12] [Client thread/INFO]: SoundSystem shutting down...
-[12:50:12] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
-[12:50:12] [Sound[12:50:12] [Client thread/WARN]: Author: Paul Lamb,[12:50:12] [Thread-9/INFO]: Initializing LWJGL OpenAL
-[12:50:12] [Thread-9/INFO]: (The [12:50:12] [Thread-9/INFO]: Initializing LWJGL OpenAL
-[12:50:12] [Thread-9/INFO]: (The LWJGL binding of OpenAL.  For more i[12:50:12] [Sound Library Loader/INFO]: Sound engine started
-[12:50:19] [Client thread/WARN]: Texture cs4850_project_mod:textures/items/bomb.png with size 21x21 will have visual artifacts at mip level 4, it can only support level 0. Please report to the mod author that the texture should be some multiple of 16x16.
-[12:50:19] [Client thread/INFO]: Created: 512x512 textures-atlas
-[12:50:22] [Client thread/WARN]: Skipping bad option: lastServer:
-[12:50:28] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
-[12:50:38] [Server thread/INFO]: Starting integrated minecraft server version 1.11.2
-[12:50:38] [Server thread/INFO]: Generating keypair
-[12:50:39] [Server thread/INFO]: Preparing start region for level 0
-[12:50:41] [Server thread/INFO]: Preparing spawn area: 0%
-[12:50:42] [Server thread/INFO]: Preparing spawn area: 3%
-[12:50:43] [Server thread/INFO]: Preparing spawn area: 15%
-[12:50:43] [Server thread/WARN]: Keeping entity minecraft:rabbit that already exists with UUID 5b26a5d8-4828-49e5-a1e6-dd4b783a2aff
-[12:50:44] [Server thread/WARN]: Keeping entity minecraft:rabbit that already exists with UUID 36342fd3-971e-4f5a-a267-b125a49e120a
-[12:50:44] [Server thread/INFO]: Preparing spawn area: 41%
-[12:50:45] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID 399a869e-11f7-402e-b446-4ab5c205e3fd
-[12:50:45] [Server thread/INFO]: Changing view distance to 12, from 10
-[12:50:48] [Server thread/INFO]: Player68[local:E:74e27dd1] logged in with entity id 293 at (175.24852324545535, 71.0, -164.77212320553858)
-[12:50:48] [Server thread/INFO]: Player68 joined the game
-[12:50:50] [Server thread/INFO]: Saving and pausing game...
-[12:50:50] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[12:50:50] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[12:50:50] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[12:50:50] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2176ms behind, skipping 43 tick(s)
-[12:50:52] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@2737f153[id=a5319f57-56e8-315e-b8df-e2f59bce41c4,name=Player68,properties={},legacy=false]
-com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
-	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:79) ~[YggdrasilAuthenticationService.class:?]
-	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:180) [YggdrasilMinecraftSessionService.class:?]
-	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:60) [YggdrasilMinecraftSessionService$1.class:?]
-	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:57) [YggdrasilMinecraftSessionService$1.class:?]
-	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3524) [guava-17.0.jar:?]
-	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2317) [guava-17.0.jar:?]
-	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2280) [guava-17.0.jar:?]
-	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2195) [guava-17.0.jar:?]
-	at com.google.common.cache.LocalCache.get(LocalCache.java:3934) [guava-17.0.jar:?]
-	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:3938) [guava-17.0.jar:?]
-	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:4821) [guava-17.0.jar:?]
-	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:4827) [guava-17.0.jar:?]
-	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:170) [YggdrasilMinecraftSessionService.class:?]
-	at net.minecraft.client.Minecraft.getProfileProperties(Minecraft.java:3056) [Minecraft.class:?]
-	at net.minecraft.client.resources.SkinManager$3.run(SkinManager.java:138) [SkinManager$3.class:?]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_121]
-	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_121]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_121]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_121]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_121]
-[12:50:59] [Client thread/INFO]: [CHAT] First Position = X: 181.0 Y: 70.0 Z: -162.0
-[12:50:59] [Client thread/INFO]: [CHAT] First Position = X: 181.0 Y: 70.0 Z: -162.0
-[12:51:01] [Client thread/INFO]: [CHAT] Second Position = X: 184.0 Y: 69.0 Z: -160.0
-[12:51:01] [Client thread/INFO]: [CHAT] Mining Blocks
-[12:51:09] [Client thread/INFO]: [CHAT] First Position = X: 183.0 Y: 70.0 Z: -158.0
-[12:51:11] [Client thread/INFO]: [CHAT] Second Position = X: 185.0 Y: 69.0 Z: -157.0
-[12:51:11] [Client thread/INFO]: [CHAT] Mining Blocks
-[12:51:17] [Client thread/INFO]: [CHAT] First Position = X: 188.0 Y: 69.0 Z: -162.0
-[12:51:19] [Client thread/INFO]: [CHAT] Second Position = X: 190.0 Y: 68.0 Z: -166.0
-[12:51:19] [Client thread/INFO]: [CHAT] Mining Blocks
-[12:51:30] [Server thread/INFO]: Saving and pausing game...
-[12:51:30] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[12:51:30] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[12:51:30] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[12:51:31] [Server thread/INFO]: Stopping server
-[12:51:31] [Server thread/INFO]: Saving players
-[12:51:31] [Server thread/INFO]: Player68 lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
-[12:51:31] [Server thread/INFO]: Player68 left the game
-[12:51:31] [Server thread/INFO]: Stopping singleplayer server as player logged out
-[12:51:31] [Server thread/INFO]: Saving worlds
-[12:51:31] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[12:51:31] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[12:51:31] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[12:51:36] [Client thread/INFO]: Stopping!
-[12:51:36] [Client thread/INFO]: SoundSystem shutting down...
-[12:51:36] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[13:11:39] [Client thread/INFO]: [CHAT] First Position = X: 172.0 Y: 71.0 Z: -164.0
+[13:11:40] [Client thread/INFO]: [CHAT] Second Position = X: 170.0 Y: 71.0 Z: -164.0
+[13:11:40] [Client thread/INFO]: [CHAT] Mining Blocks
+[13:11:42] [Client thread/INFO]: [CHAT] First Position = X: 172.0 Y: 70.0 Z: -164.0
+[13:11:43] [Client thread/INFO]: [CHAT] Second Position = X: 171.0 Y: 70.0 Z: -164.0
+[13:11:43] [Client thread/INFO]: [CHAT] Mining Blocks
+[13:11:55] [Client thread/INFO]: [CHAT] First Position = X: 173.0 Y: 70.0 Z: -152.0
+[13:11:56] [Client thread/INFO]: [CHAT] Second Position = X: 173.0 Y: 70.0 Z: -152.0
+[13:11:56] [Client thread/INFO]: [CHAT] Mining Blocks
+[13:11:58] [Client thread/INFO]: [CHAT] First Position = X: 173.0 Y: 68.0 Z: -150.0
+[13:11:58] [Client thread/INFO]: [CHAT] Second Position = X: 173.0 Y: 68.0 Z: -150.0
+[13:11:58] [Client thread/INFO]: [CHAT] Mining Blocks
+[13:11:59] [Client thread/INFO]: [CHAT] First Position = X: 173.0 Y: 67.0 Z: -150.0
+[13:12:00] [Client thread/INFO]: [CHAT] Second Position = X: 173.0 Y: 67.0 Z: -150.0
+[13:12:00] [Client thread/INFO]: [CHAT] Mining Blocks
+[13:12:21] [Client thread/INFO]: [CHAT] First Position = X: 220.0 Y: 67.0 Z: -169.0
+[13:12:22] [Client thread/INFO]: [CHAT] Second Position = X: 217.0 Y: 65.0 Z: -171.0
+[13:12:22] [Client thread/INFO]: [CHAT] Mining Blocks
+[13:12:25] [Client thread/INFO]: [CHAT] First Position = X: 221.0 Y: 66.0 Z: -169.0
+[13:12:26] [Client thread/INFO]: [CHAT] Second Position = X: 218.0 Y: 64.0 Z: -171.0
+[13:12:26] [Client thread/INFO]: [CHAT] Mining Blocks
+[13:12:28] [Client thread/INFO]: [CHAT] First Position = X: 222.0 Y: 65.0 Z: -169.0
+[13:12:29] [Client thread/INFO]: [CHAT] Second Position = X: 219.0 Y: 63.0 Z: -171.0
+[13:12:29] [Client thread/INFO]: [CHAT] Mining Blocks
+[13:12:31] [Client thread/INFO]: [CHAT] First Position = X: 223.0 Y: 64.0 Z: -169.0
+[13:12:32] [Client thread/INFO]: [CHAT] Second Position = X: 220.0 Y: 62.0 Z: -171.0
+[13:12:32] [Client thread/INFO]: [CHAT] Mining Blocks
+[13:12:34] [Client thread/INFO]: [CHAT] First Position = X: 224.0 Y: 63.0 Z: -169.0
+[13:12:36] [Client thread/INFO]: [CHAT] Second Position = X: 221.0 Y: 61.0 Z: -171.0
+[13:12:36] [Client thread/INFO]: [CHAT] Mining Blocks
+[13:12:50] [Client thread/INFO]: [CHAT] First Position = X: 229.0 Y: 70.0 Z: -172.0
+[13:12:51] [Client thread/INFO]: [CHAT] Second Position = X: 228.0 Y: 71.0 Z: -175.0
+[13:12:51] [Client thread/INFO]: [CHAT] Mining Blocks
+[13:13:00] [Server thread/INFO]: Saving and pausing game...
+[13:13:00] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[13:13:01] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[13:13:01] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[13:13:01] [Server thread/INFO]: Stopping server
+[13:13:01] [Server thread/INFO]: Saving players
+[13:13:01] [Server thread/INFO]: Player434 lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[13:13:01] [Server thread/INFO]: Player434 left the game
+[13:13:01] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[13:13:01] [Server thread/INFO]: Saving worlds
+[13:13:01] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[13:13:01] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[13:13:01] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[13:13:03] [Client thread/INFO]: Stopping!
+[13:13:03] [Client thread/INFO]: SoundSystem shutting down...
+[13:13:03] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com

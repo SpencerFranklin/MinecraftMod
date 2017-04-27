@@ -92,3 +92,4 @@ com.mojang.authlib.exceptions.AuthenticationException: The client has sent too m
 [12:46:04] [Client thread/INFO]: [CHAT] First Position = X: 180.0 Y: 70.0 Z: -163.0
 [12:46:05] [Client thread/INFO]: [CHAT] Second Position = X: 182.0 Y: 69.0 Z: -164.0
 [12:46:05] [Client thread/INFO]: [CHAT] Mining Blocks
+[12:47:03] [Client thread/INFO]: Setting user: Player68
