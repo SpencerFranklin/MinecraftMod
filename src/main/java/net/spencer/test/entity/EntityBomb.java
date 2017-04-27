@@ -54,4 +54,9 @@ public class EntityBomb extends EntityThrowable {
 	            }
 	        }
 	    }
+	 
+	 //public static void registerFixesSnowball(DataFixer fixer)
+	 //   {
+	 //       EntityThrowable.registerFixesThrowable(fixer, "Snowball");
+	 //   }
 }
