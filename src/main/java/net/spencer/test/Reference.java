@@ -14,7 +14,8 @@ public class Reference {
 		
 		CHEESE("cheese", "cheese"),
 		MAGICSTICK("magic_stick", "magic_stick"),
-		BOMB("bomb", "bomb");
+		BOMB("bomb", "bomb"),
+		MCBOWL("mcbowl", "mcbowl");
 
 		private String unlocalizedName;
 		private String registryName;

@@ -16,7 +16,7 @@ public class ItemCheese extends ItemFood {
 		setRegistryName(Reference.ModItems.CHEESE.getRegistryName());
 		healAmount = 5;
 		saturation = 1f;
-		setMaxStackSize(16);
+		setMaxStackSize(18);
 	}
 	
 
