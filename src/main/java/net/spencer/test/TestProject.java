@@ -11,6 +11,7 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.spencer.test.init.ModBlocks;
 import net.spencer.test.init.ModItems;
+import net.spencer.test.init.ModRecepies;
 import net.spencer.test.proxy.CommonProxy;
 import net.spencer.test.proxy.ServerProxy;
 
@@ -36,6 +37,8 @@ public class TestProject {
 		
 		ModBlocks.init();
 		ModBlocks.register();
+		
+		ModRecepies.addRecepies();
 	}
 	
 	@EventHandler

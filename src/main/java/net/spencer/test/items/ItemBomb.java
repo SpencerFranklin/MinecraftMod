@@ -12,6 +12,7 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.text.TextComponentString;
 import net.minecraft.world.World;
 import net.spencer.test.Reference;
+import net.spencer.test.entity.EntityBomb;
 
 public class ItemBomb extends Item {
 
@@ -20,9 +21,16 @@ public class ItemBomb extends Item {
 		setMaxStackSize(18);
 		setUnlocalizedName(Reference.ModItems.BOMB.getUnlocalizedName());
 		setRegistryName(Reference.ModItems.BOMB.getRegistryName());
+		
 	}
 	
-	//public ItemStack onItemRightClick(ItemStack stack, World world, EntityPlayer player) {
+	public ItemStack onItemRightClick(ItemStack stack, World world, EntityPlayer player) {
 
-	//}
+		if (!world.isRemote)
+		{
+			world.spawnEntity(new EntityBomb(world, player));
+		}
+
+	return stack;
+}
 }

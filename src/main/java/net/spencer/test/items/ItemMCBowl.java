@@ -8,15 +8,16 @@ import net.minecraft.potion.PotionEffect;
 import net.minecraft.world.World;
 import net.spencer.test.Reference;
 
-public class ItemCheese extends ItemFood {
 
-	public ItemCheese(int healAmount, float saturation, boolean isWolfFood) {
+public class ItemMCBowl extends ItemFood {
+	
+	public ItemMCBowl(int healAmount, float saturation, boolean isWolfFood) {
 		super(healAmount, saturation, isWolfFood);
-		setUnlocalizedName(Reference.ModItems.CHEESE.getUnlocalizedName());
-		setRegistryName(Reference.ModItems.CHEESE.getRegistryName());
-		healAmount = 5;
-		saturation = 1f;
-		setMaxStackSize(18);
+		setUnlocalizedName(Reference.ModItems.MCBOWL.getUnlocalizedName());
+		setRegistryName(Reference.ModItems.MCBOWL.getRegistryName());
+		healAmount = 8;
+		saturation = 1.5f;
+		setMaxStackSize(1);
 	}
 	
 
@@ -26,5 +27,4 @@ public class ItemCheese extends ItemFood {
     {
        super.onFoodEaten(stack, worldIn, player);
     }
-	
 }
