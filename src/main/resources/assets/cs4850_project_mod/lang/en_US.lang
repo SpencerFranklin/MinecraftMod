@@ -4,3 +4,5 @@ item.bomb.name=Big Boom
 tile.cheese.name=Cheese Block
 item.mcbowl.name=Mac and Cheese
 item.cheese_stick.name=Cheese Stick
+item.fill_stick.name=Fill Stick
+tile.spread.name=Virus Block

@@ -16,7 +16,8 @@ public class Reference {
 		MAGICSTICK("magic_stick", "magic_stick"),
 		BOMB("bomb", "bomb"),
 		MCBOWL("mcbowl", "mcbowl"),
-		CHEESESTICK("cheese_stick", "cheese_stick");
+		CHEESESTICK("cheese_stick", "cheese_stick"),
+		FILLSTICK("fill_stick", "fill_stick");
 
 		private String unlocalizedName;
 		private String registryName;
@@ -37,7 +38,8 @@ public class Reference {
 	
 public static enum ModBlocks {
 		
-		CHEESE("cheese", "cheese_block");
+		CHEESE("cheese", "cheese_block"),
+		SPREAD("spread", "spread");
 
 		private String unlocalizedName;
 		private String registryName;
