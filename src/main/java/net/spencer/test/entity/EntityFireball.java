@@ -3,6 +3,7 @@ package net.spencer.test.entity;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.monster.EntityBlaze;
 import net.minecraft.entity.projectile.EntityThrowable;
+import net.minecraft.init.Blocks;
 import net.minecraft.util.DamageSource;
 import net.minecraft.util.EnumParticleTypes;
 import net.minecraft.util.datafix.DataFixer;
@@ -11,6 +12,7 @@ import net.minecraft.util.math.RayTraceResult;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+import net.spencer.test.init.ModBlocks;
 
 public class EntityFireball extends EntityThrowable {
 
@@ -42,8 +44,16 @@ public class EntityFireball extends EntityThrowable {
 			this.world.setEntityState(this, (byte) 3);
 			this.setDead();
 			BlockPos b = result.getBlockPos();
-
-			this.world.createExplosion(null, b.getX(), b.getY(), b.getZ(), 5.0f, true);
+			BlockPos source = b.up();
+			BlockPos w = source.west();
+			BlockPos e = source.east();
+			BlockPos n = source.north();
+			BlockPos s = source.south();
+			this.world.setBlockState(source, Blocks.FIRE.getDefaultState(), 3);
+			this.world.setBlockState(w, Blocks.FIRE.getDefaultState(), 3);
+			this.world.setBlockState(e, Blocks.FIRE.getDefaultState(), 3);
+			this.world.setBlockState(s, Blocks.FIRE.getDefaultState(), 3);
+			this.world.setBlockState(n, Blocks.FIRE.getDefaultState(), 3);
 
 		}
 	}
