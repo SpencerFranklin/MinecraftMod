@@ -19,7 +19,7 @@ import net.spencer.test.init.ModBlocks;
 public class BlockEat extends Block {
 
 	public BlockEat() {
-		super(Material.AIR);
+		super(Material.CAKE);
 
 		setUnlocalizedName(Reference.ModBlocks.EAT.getUnlocalizedName());
 		setRegistryName(Reference.ModBlocks.EAT.getRegistryName());
