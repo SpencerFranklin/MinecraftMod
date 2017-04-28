@@ -36,7 +36,7 @@ public class ItemFireball extends Item {
 
 		if (!worldIn.isRemote) {
 			EntityFireball entityfireball = new EntityFireball(worldIn, playerIn);
-			EntityFireball.setHeadingFromThrower(playerIn, playerIn.rotationPitch, playerIn.rotationYaw, 0.0F, 1.5F,
+			entityfireball.setHeadingFromThrower(playerIn, playerIn.rotationPitch, playerIn.rotationYaw, 0.0F, 1.5F,
 					1.0F);
 			worldIn.spawnEntity(entityfireball);
 		}
