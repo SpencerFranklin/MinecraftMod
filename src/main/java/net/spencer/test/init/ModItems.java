@@ -11,16 +11,18 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 
 import net.spencer.test.Reference;
 import net.spencer.test.entity.EntityBomb;
+import net.spencer.test.entity.EntityFireball;
 import net.spencer.test.items.ItemBomb;
 import net.spencer.test.items.ItemCheese;
 import net.spencer.test.items.ItemCheeseStick;
 import net.spencer.test.items.ItemFillStick;
+import net.spencer.test.items.ItemFireball;
 import net.spencer.test.items.ItemMCBowl;
 import net.spencer.test.items.ItemMagicStick;
 
 public class ModItems {
 
-	public static Item cheese, magic_stick, bomb, mcbowl, cheese_stick, fill_stick;
+	public static Item cheese, magic_stick, bomb, mcbowl, cheese_stick, fill_stick, fireball;
 
 	public static void init () {
 		cheese = new ItemCheese(5, 1, false).setAlwaysEdible();
@@ -29,6 +31,7 @@ public class ModItems {
 		cheese_stick = new ItemCheeseStick();
 		bomb = new ItemBomb();
 		fill_stick = new ItemFillStick();
+		fireball = new ItemFireball();
 	}
 	
 	public static void register () {
@@ -38,6 +41,7 @@ public class ModItems {
 		GameRegistry.register(mcbowl);
 		GameRegistry.register(cheese_stick);
 		GameRegistry.register(fill_stick);
+		GameRegistry.register(fireball);
 
 
 	}
@@ -49,6 +53,7 @@ public class ModItems {
 		registerRender (mcbowl);
 		registerRender (cheese_stick);
 		registerRender (fill_stick);
+		registerRender (fireball);
 
 		//RenderingRegistry.registerEntityRenderingHandler(entityClass, RenderSnowball());
 

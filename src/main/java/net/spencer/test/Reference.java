@@ -17,7 +17,8 @@ public class Reference {
 		BOMB("bomb", "bomb"),
 		MCBOWL("mcbowl", "mcbowl"),
 		CHEESESTICK("cheese_stick", "cheese_stick"),
-		FILLSTICK("fill_stick", "fill_stick");
+		FILLSTICK("fill_stick", "fill_stick"),
+		FIREBALL("fireball", "fireball");
 
 		private String unlocalizedName;
 		private String registryName;
