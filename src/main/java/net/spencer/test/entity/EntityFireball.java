@@ -1,9 +1,11 @@
 package net.spencer.test.entity;
 
+import net.minecraft.entity.EntityLiving;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.monster.EntityBlaze;
 import net.minecraft.entity.projectile.EntityThrowable;
 import net.minecraft.init.Blocks;
+import net.minecraft.item.ItemStack;
 import net.minecraft.util.DamageSource;
 import net.minecraft.util.EnumParticleTypes;
 import net.minecraft.util.datafix.DataFixer;
@@ -38,9 +40,12 @@ public class EntityFireball extends EntityThrowable {
 		if (result.entityHit != null) {
 			int i = 0;
 			result.entityHit.attackEntityFrom(DamageSource.causeThrownDamage(this, this.getThrower()), (float) i);
+			if(result.entityHit.isEntityAlive()) {
+				result.entityHit.setFire(10);
+			}
 		}
-
-		if (!this.world.isRemote) {
+		
+		else if (!this.world.isRemote) {
 			this.world.setEntityState(this, (byte) 3);
 			this.setDead();
 			BlockPos b = result.getBlockPos();

@@ -14,7 +14,7 @@ public class ModEntity {
 	public static void register(){
 		
 		EntityRegistry.registerModEntity(new ResourceLocation(Reference.MOD_ID + ":" + "bomb.png"), EntityBomb.class, "Bomb", 0, TestProject.instance, 64, 10, true);	
-		EntityRegistry.registerModEntity(new ResourceLocation(Reference.MOD_ID + ":" + "fireball.png"), EntityBomb.class, "Fireball", 0, TestProject.instance, 64, 10, true);
+		EntityRegistry.registerModEntity(new ResourceLocation(Reference.MOD_ID + ":" + "fireball.png"), EntityFireball.class, "Fireball", 0, TestProject.instance, 64, 10, true);
 
 	}
 }
