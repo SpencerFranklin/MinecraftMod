@@ -24,11 +24,11 @@ public class BlockEat extends Block {
 		setUnlocalizedName(Reference.ModBlocks.EAT.getUnlocalizedName());
 		setRegistryName(Reference.ModBlocks.EAT.getRegistryName());
 		setHardness(1.0f);
-		this.setTickRandomly(true);
+		this.setTickRandomly(false);
 	}
 
 	@Override
-	public void randomTick(World worldIn, BlockPos pos, IBlockState state, Random random) {
+	public void updateTick(World worldIn, BlockPos pos, IBlockState state, Random random) {
 		BlockPos p = pos.down();
 		if(!worldIn.getBlockState(p).getBlock().isAir(worldIn.getBlockState(p), worldIn, p)) {
 			worldIn.setBlockState(p, ModBlocks.eat.getDefaultState());
@@ -60,7 +60,6 @@ public class BlockEat extends Block {
 			worldIn.scheduleUpdate(p, worldIn.getBlockState(p).getBlock(), 0);
 		}
 		
-		this.updateTick(worldIn, pos, state, random);
 		worldIn.setBlockState(pos, Blocks.AIR.getDefaultState());
 	}
 
