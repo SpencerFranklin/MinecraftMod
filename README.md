@@ -1,7 +1,7 @@
 # MinecraftMod
 
 to give yourself a modded object type /give [your name] cs
-then hit tab and it should suto fill the really long name
+then hit tab and it should auto fill the really long name
 
 the objects you can choose from are:
 spread (virus block)
