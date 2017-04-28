@@ -1,110 +1,68 @@
-[23:08:53] [Client thread/INFO]: Setting user: Player691
-[23:08:57] [Client thread/WARN]: Skipping bad option: lastServer:
-[23:08:57] [Client thread/INFO]: LWJGL Version: 2.9.4
-[23:08:58] [Client thread/INFO]: [STDOUT]: ---- Minecraft Crash Report ----
-// Hi. I'm Minecraft, and I'm a crashaholic.
-
-Time: 4/27/17 11:08 PM
-Description: Loading screen debug info
-
-This is just a prompt for computer specs to be printed. THIS IS NOT A ERROR
-
-
-A detailed walkthrough of the error, its code path and all known details is as follows:
----------------------------------------------------------------------------------------
-
--- System Details --
-Details:
-	Minecraft Version: 1.11.2
-	Operating System: Windows 10 (amd64) version 10.0
-	Java Version: 1.8.0_121, Oracle Corporation
-	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
-	Memory: 673326392 bytes (642 MB) / 1037959168 bytes (989 MB) up to 1037959168 bytes (989 MB)
-	JVM Flags: 3 total; -Xincgc -Xmx1024M -Xms1024M
-	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
-	FML: 
-	Loaded coremods (and transformers): 
-	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.5.0 NVIDIA 378.78' Renderer: 'GeForce GTX 960/PCIe/SSE2'
-[23:09:00] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Example Mod, FMLFileResourcePack:Game Engines Final Project
-[23:09:00] [Client thread/INFO]: [STDOUT]: Building Game Engines: Final Project: PRE-INIT
-[23:09:16] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[23:09:16] [Thread-8/INFO]: Initializing LWJGL OpenAL
-[23:09:16] [Thread-8/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[23:09:17] [Thread-8/INFO]: OpenAL initialized.
-[23:09:17] [Sound Library Loader/INFO]: Sound engine started
-[23:09:21] [Client thread/INFO]: Created: 16x16 textures-atlas
-[23:09:22] [Client thread/INFO]: [STDOUT]: DIRT BLOCK >> tile.dirt
-[23:09:22] [Client thread/INFO]: [STDOUT]: Building Game Engines: Final Project: INIT
-[23:09:22] [Client thread/INFO]: [STDOUT]: cs4850_project_mod:cheese
-[23:09:22] [Client thread/INFO]: [STDOUT]: cs4850_project_mod:magic_stick
-[23:09:22] [Client thread/INFO]: [STDOUT]: cs4850_project_mod:bomb
-[23:09:22] [Client thread/INFO]: [STDOUT]: cs4850_project_mod:mcbowl
-[23:09:22] [Client thread/INFO]: [STDOUT]: cs4850_project_mod:cheese_stick
-[23:09:22] [Client thread/INFO]: [STDOUT]: cs4850_project_mod:fill_stick
-[23:09:22] [Client thread/INFO]: [STDOUT]: cs4850_project_mod:fireball
-[23:09:22] [Client thread/INFO]: [STDOUT]: cs4850_project_mod:cheese_block
-[23:09:22] [Client thread/INFO]: [STDOUT]: cs4850_project_mod:mpb
-[23:09:22] [Client thread/INFO]: [STDOUT]: cs4850_project_mod:spread
-[23:09:22] [Client thread/INFO]: [STDOUT]: cs4850_project_mod:eat
-[23:09:22] [Client thread/INFO]: [STDOUT]: Building Game Engines: Final Project: POST-INIT
-[23:09:22] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Example Mod, FMLFileResourcePack:Game Engines Final Project
-[23:09:25] [Client thread/INFO]: SoundSystem shutting down...
-[23:09:25] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
-[23:09:25] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[23:09:25] [Thread-10/INFO]: Initializing LWJGL OpenAL
-[23:09:25] [Thread-10/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[23:09:25] [Thread-10/INFO]: OpenAL initialized.
-[23:09:25] [Sound Library Loader/INFO]: Sound engine started
-[23:09:29] [Client thread/WARN]: Texture cs4850_project_mod:textures/items/fill_stick.png with size 15x15 will have visual artifacts at mip level 4, it can only support level 0. Please report to the mod author that the texture should be some multiple of 16x16.
-[23:09:29] [Client thread/INFO]: Created: 512x512 textures-atlas
-[23:09:30] [Client thread/WARN]: Skipping bad option: lastServer:
-[23:09:31] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
-[23:09:35] [Server thread/INFO]: Starting integrated minecraft server version 1.11.2
-[23:09:35] [Server thread/INFO]: Generating keypair
-[23:09:35] [Server thread/INFO]: Preparing start region for level 0
-[23:09:36] [Server thread/INFO]: Preparing spawn area: 56%
-[23:09:37] [Server thread/INFO]: Changing view distance to 12, from 10
-[23:09:38] [Server thread/INFO]: Player691[local:E:e900d99f] logged in with entity id 324 at (-5.541201639360365, 74.0, -23.113451847158178)
-[23:09:38] [Server thread/INFO]: Player691 joined the game
-[23:09:38] [Server thread/INFO]: Saving and pausing game...
-[23:09:39] [Server thread/INFO]: Saving chunks for level 'New World3'/Overworld
-[23:09:39] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@1567a07b[id=9c8c8150-8037-3bce-ad12-e25cefa38046,name=Player691,properties={},legacy=false]
-com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
-	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:79) ~[YggdrasilAuthenticationService.class:?]
-	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:180) [YggdrasilMinecraftSessionService.class:?]
-	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:60) [YggdrasilMinecraftSessionService$1.class:?]
-	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:57) [YggdrasilMinecraftSessionService$1.class:?]
-	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3524) [guava-17.0.jar:?]
-	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2317) [guava-17.0.jar:?]
-	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2280) [guava-17.0.jar:?]
-	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2195) [guava-17.0.jar:?]
-	at com.google.common.cache.LocalCache.get(LocalCache.java:3934) [guava-17.0.jar:?]
-	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:3938) [guava-17.0.jar:?]
-	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:4821) [guava-17.0.jar:?]
-	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:4827) [guava-17.0.jar:?]
-	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:170) [YggdrasilMinecraftSessionService.class:?]
-	at net.minecraft.client.Minecraft.getProfileProperties(Minecraft.java:3056) [Minecraft.class:?]
-	at net.minecraft.client.resources.SkinManager$3.run(SkinManager.java:138) [SkinManager$3.class:?]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_121]
-	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_121]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_121]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_121]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_121]
-[23:09:39] [Server thread/INFO]: Saving chunks for level 'New World3'/Nether
-[23:09:39] [Server thread/INFO]: Saving chunks for level 'New World3'/The End
-[23:09:58] [Server thread/INFO]: Saving and pausing game...
-[23:09:58] [Server thread/INFO]: Saving chunks for level 'New World3'/Overworld
-[23:09:58] [Server thread/INFO]: Saving chunks for level 'New World3'/Nether
-[23:09:58] [Server thread/INFO]: Saving chunks for level 'New World3'/The End
-[23:09:59] [Server thread/INFO]: Stopping server
-[23:09:59] [Server thread/INFO]: Saving players
-[23:09:59] [Server thread/INFO]: Player691 lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
-[23:09:59] [Server thread/INFO]: Player691 left the game
-[23:09:59] [Server thread/INFO]: Stopping singleplayer server as player logged out
-[23:09:59] [Server thread/INFO]: Saving worlds
-[23:09:59] [Server thread/INFO]: Saving chunks for level 'New World3'/Overworld
-[23:09:59] [Server thread/INFO]: Saving chunks for level 'New World3'/Nether
-[23:09:59] [Server thread/INFO]: Saving chunks for level 'New World3'/The End
-[23:10:00] [Client thread/INFO]: Stopping!
-[23:10:00] [Client thread/INFO]: SoundSystem shutting down...
-[23:10:00] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[00:19:38] [Server thread/INFO]: Starting integrated minecraft server version 1.11.2
+[00:19:38] [Server thread/INFO]: Generating keypair
+[00:19:38] [Server thread/INFO]: Preparing start region for level 0
+[00:19:39] [Server thread/INFO]: Preparing spawn area: 14%
+[00:19:40] [Server thread/INFO]: Preparing spawn area: 24%
+[00:19:41] [Server thread/INFO]: Preparing spawn area: 34%
+[00:19:42] [Server thread/INFO]: Preparing spawn area: 46%
+[00:19:43] [Server thread/INFO]: Preparing spawn area: 58%
+[00:19:44] [Server thread/INFO]: Preparing spawn area: 71%
+[00:19:45] [Server thread/INFO]: Preparing spawn area: 83%
+[00:19:46] [Server thread/INFO]: Preparing spawn area: 96%
+[00:19:47] [Server thread/INFO]: Changing view distance to 32, from 10
+[00:19:48] [Server thread/INFO]: Player83[local:E:b0b654ec] logged in with entity id 83930 at (-139.5, 76.0, 233.5)
+[00:19:48] [Server thread/INFO]: Player83 joined the game
+[00:19:52] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4323ms behind, skipping 86 tick(s)
+[00:19:54] [Server thread/INFO]: Player83 has just earned the achievement [Taking Inventory]
+[00:19:54] [Client thread/INFO]: [CHAT] Player83 has just earned the achievement [Taking Inventory]
+[00:20:05] [Client thread/INFO]: [CHAT] cs4850_project_mod:bomb, cs4850_project_mod:cheese, cs4850_project_mod:cheese_block, cs4850_project_mod:cheese_stick, cs4850_project_mod:eat, cs4850_project_mod:fill_stick, cs4850_project_mod:fireball, cs4850_project_mod:magic_stick, cs4850_project_mod:mcbowl, cs4850_project_mod:mpb, cs4850_project_mod:spread
+[00:20:06] [Client thread/INFO]: [CHAT] cs4850_project_mod:bomb, cs4850_project_mod:cheese, cs4850_project_mod:cheese_block, cs4850_project_mod:cheese_stick, cs4850_project_mod:eat, cs4850_project_mod:fill_stick, cs4850_project_mod:fireball, cs4850_project_mod:magic_stick, cs4850_project_mod:mcbowl, cs4850_project_mod:mpb, cs4850_project_mod:spread
+[00:20:06] [Client thread/INFO]: [CHAT] cs4850_project_mod:bomb, cs4850_project_mod:cheese, cs4850_project_mod:cheese_block, cs4850_project_mod:cheese_stick, cs4850_project_mod:eat, cs4850_project_mod:fill_stick, cs4850_project_mod:fireball, cs4850_project_mod:magic_stick, cs4850_project_mod:mcbowl, cs4850_project_mod:mpb, cs4850_project_mod:spread
+[00:20:06] [Client thread/INFO]: [CHAT] cs4850_project_mod:bomb, cs4850_project_mod:cheese, cs4850_project_mod:cheese_block, cs4850_project_mod:cheese_stick, cs4850_project_mod:eat, cs4850_project_mod:fill_stick, cs4850_project_mod:fireball, cs4850_project_mod:magic_stick, cs4850_project_mod:mcbowl, cs4850_project_mod:mpb, cs4850_project_mod:spread
+[00:20:07] [Client thread/INFO]: [CHAT] cs4850_project_mod:bomb, cs4850_project_mod:cheese, cs4850_project_mod:cheese_block, cs4850_project_mod:cheese_stick, cs4850_project_mod:eat, cs4850_project_mod:fill_stick, cs4850_project_mod:fireball, cs4850_project_mod:magic_stick, cs4850_project_mod:mcbowl, cs4850_project_mod:mpb, cs4850_project_mod:spread
+[00:20:08] [Server thread/INFO]: [Player83: Given [tile.eat.name] * 1 to Player83]
+[00:20:08] [Client thread/INFO]: [CHAT] Given [tile.eat.name] * 1 to Player83
+[00:20:13] [Client thread/INFO]: [CHAT] /gamemode, /gamerule
+[00:20:15] [Server thread/INFO]: [Player83: Set own game mode to Survival Mode]
+[00:20:15] [Client thread/INFO]: [CHAT] Your game mode has been updated to Survival Mode
+[00:20:18] [Server thread/INFO]: [Player83: Set own game mode to Creative Mode]
+[00:20:18] [Client thread/INFO]: [CHAT] Your game mode has been updated to Creative Mode
+[00:20:22] [Server thread/WARN]: Tried to over-fill a container
+[00:20:25] [Server thread/INFO]: Saving and pausing game...
+[00:20:25] [Server thread/INFO]: Saving chunks for level 'New World9'/Overworld
+[00:20:26] [Server thread/INFO]: Saving chunks for level 'New World9'/Nether
+[00:20:26] [Server thread/INFO]: Saving chunks for level 'New World9'/The End
+[00:20:26] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 16969ms behind, skipping 339 tick(s)
+[00:20:48] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2393ms behind, skipping 47 tick(s)
+[00:21:40] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 32642ms behind, skipping 652 tick(s)
+[00:21:49] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 8746ms behind, skipping 174 tick(s)
+[00:22:31] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 33288ms behind, skipping 665 tick(s)
+[00:22:34] [Server thread/INFO]: [Player83: Game rule randomTickSpeed has been updated to 100]
+[00:22:34] [Client thread/INFO]: [CHAT] Game rule randomTickSpeed has been updated to 100
+[00:22:39] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 7764ms behind, skipping 155 tick(s)
+[00:22:42] [Server thread/INFO]: Saving and pausing game...
+[00:22:42] [Server thread/INFO]: Saving chunks for level 'New World9'/Overworld
+[00:22:43] [Server thread/INFO]: Saving chunks for level 'New World9'/Nether
+[00:22:43] [Server thread/INFO]: Saving chunks for level 'New World9'/The End
+[00:22:51] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3292ms behind, skipping 65 tick(s)
+[00:22:56] [Server thread/INFO]: Saving and pausing game...
+[00:22:56] [Server thread/INFO]: Saving chunks for level 'New World9'/Overworld
+[00:22:58] [Server thread/INFO]: Saving chunks for level 'New World9'/Nether
+[00:22:58] [Server thread/INFO]: Saving chunks for level 'New World9'/The End
+[00:24:09] [Client thread/INFO]: Warning: Clientside chunk ticking took 918 ms
+[00:24:24] [Server thread/INFO]: Saving and pausing game...
+[00:24:25] [Server thread/INFO]: Saving chunks for level 'New World9'/Overworld
+[00:24:26] [Server thread/INFO]: Saving chunks for level 'New World9'/Nether
+[00:24:26] [Server thread/INFO]: Saving chunks for level 'New World9'/The End
+[00:24:26] [Server thread/INFO]: Stopping server
+[00:24:26] [Server thread/INFO]: Saving players
+[00:24:26] [Server thread/INFO]: Player83 lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[00:24:26] [Server thread/INFO]: Player83 left the game
+[00:24:26] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[00:24:26] [Server thread/INFO]: Saving worlds
+[00:24:26] [Server thread/INFO]: Saving chunks for level 'New World9'/Overworld
+[00:24:26] [Server thread/INFO]: Saving chunks for level 'New World9'/Nether
+[00:24:26] [Server thread/INFO]: Saving chunks for level 'New World9'/The End
+[00:24:43] [Client thread/INFO]: Stopping!
+[00:24:43] [Client thread/INFO]: SoundSystem shutting down...
+[00:24:46] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
