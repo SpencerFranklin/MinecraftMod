@@ -41,7 +41,8 @@ public static enum ModBlocks {
 		
 		CHEESE("cheese", "cheese_block"),
 		MPB("mpb", "mpb"),
-		SPREAD("spread", "spread");
+		SPREAD("spread", "spread"), 
+		EAT("eat", "eat");
 
 		private String unlocalizedName;
 		private String registryName;

@@ -9,23 +9,26 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 
 import net.spencer.test.Reference;
 import net.spencer.test.blocks.BlockCheese;
+import net.spencer.test.blocks.BlockEat;
 import net.spencer.test.blocks.MPB;
 import net.spencer.test.blocks.BlockSpread;
 import net.spencer.test.items.ItemCheese;
 
 public class ModBlocks {
-	public static Block cheese, mpb, spread;
+	public static Block cheese, mpb, spread, eat;
 	
 	public static void init () {
 		cheese = new BlockCheese(ModItems.cheese, 1, 6);
 		mpb = new MPB(ModItems.cheese, 1, 6);
 		spread = new BlockSpread();
+		eat = new BlockEat();
 	}
 
 	public static void register () {
 		registerBlock (cheese);
 		registerBlock(mpb);
 		registerBlock (spread);
+		registerBlock (eat);
 	}
 	
 	public static void registerBlock (Block block) {
@@ -39,6 +42,7 @@ public class ModBlocks {
 		registerRender (cheese);
 		registerRender (mpb);
 		registerRender (spread);
+		registerRender (eat);
 	}
 	
 	private static void registerRender (Block block) {
